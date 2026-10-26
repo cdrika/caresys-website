@@ -13,11 +13,11 @@ npm start
 
 Open `http://localhost:8090`. The default bind address is loopback only. Stop with Ctrl+C. Windows helpers are in `deploy/`; they launch only the website process. `npm test` checks form persistence/validation, rate limits, origin rejection, privacy boundaries and media range requests.
 
-Pages: Home, About, Module Information, Subscriptions, Tutorials, Customer Feedback, Contact and Website Privacy. `public/` is the only served directory. The page generator is `tools/build-pages.mjs`; CSS and browser behavior are in `public/assets/`.
+Pages: Home, About, For Independent Caregivers, Module Information, Subscriptions, Tutorials, Customer Feedback, Contact and Website Privacy. `public/` is the only served directory. The page generator is `tools/build-pages.mjs`; CSS and browser behavior are in `public/assets/`.
 
 ## Prices and application links
 
-Edit `content/site.json` and run `npm run build`. Current provisional pilot prices are Starter $59/month (10 active workers), Operations $129/month (30), Growth $249/month (75), and $3 per extra worker, all in USD. These are discussion prices, not live checkout products. Confirm taxes, module availability, scope and commercial terms before selling subscriptions. Set `applicationUrl` to the actual application host for another environment.
+Edit `content/site.json` and run `npm run build`. Current provisional pilot prices are Starter $59/month (10 active workers), Operations $129/month (30), Growth $249/month (75), and $3 per extra worker, all in USD. These are discussion prices, not live checkout products. Confirm taxes, module availability, scope and commercial terms before selling subscriptions. Set `applicationUrl`, `caregiverRegistrationUrl` and `caregiverOpportunitiesUrl` to the actual application routes for another environment. The independent caregiver page explains personal registration, profile information, verification/discovery, vacancy applications and offer decisions. Agency subscriptions are explicitly distinguished from the personal registration path.
 
 ## Contact and customer feedback
 
