@@ -1,0 +1,14 @@
+{
+  "name": "caresys-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent HTML5 information website for CareSys",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node tools/build-pages.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/server.test.mjs",
+    "inbox": "node tools/inbox.mjs"
+  }
+}

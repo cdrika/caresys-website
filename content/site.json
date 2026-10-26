@@ -1,0 +1,14 @@
+{
+  "applicationUrl": "https://localhost:8444/app",
+  "pricing": {
+    "currency": "USD",
+    "period": "month",
+    "status": "Provisional pilot pricing. Final scope and availability are confirmed before an agreement. No payments are taken on this website.",
+    "extraWorker": 3,
+    "plans": [
+      {"id":"starter","name":"Starter","price":59,"workers":10,"audience":"Build your care team","description":"A focused starting point for recruitment and agency administration.","features":["Caregiver profile discovery","Recruitment and applications","Invitations and offer workflows","Core agency administration"]},
+      {"id":"operations","name":"Operations","price":129,"workers":30,"audience":"Coordinate the everyday","description":"Connect your people, planned visits and day-to-day care operations.","features":["Everything in Starter","Scheduling and visit assignments","Time review and leave requests","Care notes and incident records"]},
+      {"id":"growth","name":"Growth","price":249,"workers":75,"audience":"Connect the whole picture","description":"Bring operational reviews and available finance workflows together.","features":["Everything in Operations","Expenses and equipment custody","Invoices and receipt records","Worked-time exports and reporting"]}
+    ]
+  }
+}
